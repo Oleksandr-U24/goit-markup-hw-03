@@ -1,0 +1,146 @@
+:root {
+    --c-pr-brand: #4D5AE5;
+    --c-pr-state: #404BBF;
+    --c-navy-blue: #2E2F42;
+    --c-body-text: #434455;
+    --c-white: #fff;
+    --c-white-cloud: #F4F4FD;
+    
+}
+
+/* Body-set */
+.body-set {
+    font-family: Roboto, sans-serif;
+    color: var(--c-body-text);
+    background-color: var(--c-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+button {
+    font-family: inherit;
+}
+
+/* Header */
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--c-pr-brand);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--c-navy-blue);
+}
+
+.logo-accent-ft {
+    color: var(--c-white-cloud);
+}
+
+.nav-item {
+    color: var(--c-navy-blue);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--c-pr-state);
+    text-decoration: underline;
+}
+
+.adr {
+    font-style: normal;
+}
+
+.adr-item {
+    color: var(--c-body-text);
+    font-style: normal;
+    text-decoration: none;    
+}
+
+.adr-item:hover,
+.adr-item:focus {
+    color: var(--c-pr-state);
+}
+/* Header END */
+
+/* Main */
+
+/* Hero Section */
+.hero-section {
+    background: var(--c-navy-blue);
+}
+
+.hero-title {
+    color: var(--c-white);
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
+}
+
+.hero-button {
+    color: var(--c-white);
+    background-color: var(--c-pr-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--c-pr-state);
+}
+
+.team-section {
+    background-color: var(--c-white-cloud);
+}
+
+.team-unit {
+    background-color: var(--c-white);
+}
+
+.sect-title {
+    color: var(--c-navy-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sect-subtitle {
+    color: var(--c-navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;      
+}
+
+.sect-text {
+    font-size: 16px;
+}
+/* Main END */
+
+/* Footer */
+.footer-sect {
+    background-color: var(--c-navy-blue);
+}
+
+.footer-text {
+    color: var(--c-white-cloud);
+}
