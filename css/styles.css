@@ -53,7 +53,20 @@ img {
     padding: 0 20px;
 }
 
+/* END Base Settings */
+
 /* Header */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    padding: 24px 0;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     color: var(--c-pr-brand);
@@ -73,6 +86,11 @@ img {
     color: var(--c-white-cloud);
 }
 
+.nav-list {
+    display: flex;
+
+}
+
 .nav-item {
     color: var(--c-navy-blue);
     font-weight: 500;
@@ -87,6 +105,11 @@ img {
 
 .adr {
     font-style: normal;
+}
+
+.adr-list {
+    display: flex;
+    gap: 40px;
 }
 
 .adr-item {
